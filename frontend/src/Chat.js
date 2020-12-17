@@ -37,7 +37,7 @@ function Chat(){
     useEffect(()=>{
         axios.get('/api/messages/sync').then((res)=>{
         setMessages((res.data).filter((mes)=> mes.room === roomId));
-        });
+        }).catch(()=>{});
     },[roomId]);
     useEffect(() => {
         const pusher = new Pusher(`${process.env.REACT_APP_PUSHER_APP_KEY}`, {
@@ -84,7 +84,7 @@ function Chat(){
             <div id = "chats" className="chat_body">
                 {
                     messages.map((message)=>{ return (
-                        <p key ={message.id} className={`chat_message ${message.name === user.displayName && "receive"}`}>
+                        <p key ={message._id} className={`chat_message ${message.name === user.displayName && "receive"}`}>
                             <span className="chat_name">{(message.name).substr(0, (message.name).indexOf(" "))}</span>
                             <ChatMessage message = {message.message}/>
                             &nbsp;&nbsp;
