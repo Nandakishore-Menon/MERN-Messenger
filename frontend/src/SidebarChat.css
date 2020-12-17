@@ -8,8 +8,8 @@
   height: min-content;
   background-color: #fbf1df;
   color: #423c3e;
-  -webkit-filter: drop-shadow(1px 1px 2px #1f2933);
-  filter: drop-shadow(1.2px 5px 1px #1f2933);
+  -webkit-filter: drop-shadow(1px 1px 2px #423c3e);
+  filter: drop-shadow(1.2px 5px 1px #423c3e);
 }
 
 .sidebarChat:hover {
