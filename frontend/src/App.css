@@ -1,0 +1,32 @@
+.App {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background-color: #384858;
+}
+
+.app_wrapper {
+  display: flex;
+  background-color: #323f4b;
+  color: whitesmoke;
+  height: 90vh;
+  width: 90vw;
+  margin: -50px;
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.75);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #323f4b;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: aliceblue;
+  border-radius: 10px;
+}
