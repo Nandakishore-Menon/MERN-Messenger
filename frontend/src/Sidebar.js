@@ -38,7 +38,7 @@ function Sidebar(){
     
     // console.log("Rooms>>>",rooms);
     const searchfunc = (e)=>{
-        if(e === ""||" "){
+        if(e === ""){
             axios.get(`/api/rooms/get`).then((res)=>{
                 setRooms(res.data);
             }).catch((err)=> alert(err));
