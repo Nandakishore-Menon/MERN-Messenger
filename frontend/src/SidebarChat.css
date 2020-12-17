@@ -6,18 +6,19 @@
   border-radius: 20px;
   margin: 10px 5px;
   height: min-content;
-  background-color: #323f4b;
-  color: whitesmoke;
+  background-color: #fbf1df;
+  color: #423c3e;
   -webkit-filter: drop-shadow(1px 1px 2px #1f2933);
   filter: drop-shadow(1.2px 5px 1px #1f2933);
 }
 
 .sidebarChat:hover {
-  background-color: #40505f;
+  background-color: #423c3e;
+  color: #fbf1df;
 }
 
 .chat_info > h3 {
-  font-size: 15px;
+  font-size: 20px;
   margin-bottom: 5px;
 }
 .chat_info {
@@ -30,7 +31,7 @@
 }
 a {
   text-decoration: none;
-  color: #000000;
+  color: #423c3e;
 }
 
 .add {
@@ -38,17 +39,20 @@ a {
   flex: 1;
   /* justify-content: center; */
   align-items: center;
-  background-color: #323f4b;
+  background-color: #fbf1df;
 }
 .add > .MuiSvgIcon-root {
   font-size: 3em;
-  color: #e7cba2;
+  color: #423c3e;
 }
 .add > h3 {
   font-size: 1.5em;
-  color: #e7cba2;
+  color: #423c3e;
   padding: 5px 20px;
 }
-.add:hover {
-  background-color: #40505f;
+.add:hover > h3 {
+  color: #fbf1df;
+}
+.add:hover > .MuiSvgIcon-root {
+  color: #fbf1df;
 }

@@ -23,7 +23,7 @@
 }
 
 .chat_header_info > p {
-  color: #e7cba2;
+  color: #e1e6e2;
   font-size: 0.8em;
 }
 
@@ -33,7 +33,7 @@
   padding: 30px;
   overflow-y: auto;
   /* background-image: url("https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png"); */
-  background-color: #1f2933;
+  background-color: #544f51;
   background-position: center;
   background-repeat: repeat;
 }
@@ -44,7 +44,7 @@
   padding: 10px;
   border-radius: 10px;
   font-size: 16px;
-  background-color: aliceblue;
+  background-color: #fbf1df;
   color: #1f2933;
   margin-bottom: 30px;
   max-width: 20vw;
@@ -68,7 +68,7 @@
 
 .receive {
   margin-left: auto;
-  background-color: #e7cba2;
+  background-color: #fbf1df;
   color: #1f2933;
 }
 
@@ -93,6 +93,7 @@
   border: none;
   outline-width: 0;
   font-family: "Nunito", sans-serif;
+  color: #544f51;
   font-weight: 700;
   margin-right: 2vw;
 }

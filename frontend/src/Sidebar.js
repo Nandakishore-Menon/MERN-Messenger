@@ -54,13 +54,13 @@ function Sidebar(){
             <div className = "sidebar_header">
                 <Avatar src={user?.photoURL}    />
                 <div className = "header_options">
-                    <IconButton style = {{color: "#e0c08f"}}>
+                    <IconButton style = {{color: "#E1E6E2"}}>
                         <DonutLargeIcon />
                     </IconButton>
-                    <IconButton style = {{color: "#e0c08f"}}>
+                    <IconButton style = {{color: "#E1E6E2"}}>
                         <ChatIcon />
                     </IconButton>
-                    <IconButton style = {{color: "#e0c08f"}}>
+                    <IconButton style = {{color: "#E1E6E2"}}>
                         <MoreVertIcon />
                     </IconButton>
                 </div>  

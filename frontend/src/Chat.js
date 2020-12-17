@@ -101,7 +101,7 @@ function Chat(){
                     <EmojiPicker emojiData={emojiData} onEmojiSelect={handleEmojiSelect} />
                 </div>
                 <IconButton onClick={() =>{setemojiBox(!emojiBox)}}>
-                    <InsertEmoticonIcon style = {{color: "#e7cba2", padding:"10px 0px 10px 15px",margin: "0"}} />
+                    <InsertEmoticonIcon style = {{color: "#E1E6E2", padding:"10px 0px 10px 15px",margin: "0"}} />
                 </IconButton>
                 <form>
                     <input 
