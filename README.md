@@ -60,4 +60,4 @@ This is my implementation of a MERN stack chat room application with google auth
 
 This should open the application in your browser. Sign-in using your Google account and start chatting!
 
-The application has also been deployed on Heroku [here](https://simple-mern-messenger.herokuapp.com).
+The application has also been deployed on Heroku [here](https://app-messenger-mern.herokuapp.com/).
