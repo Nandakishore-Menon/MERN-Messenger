@@ -52,18 +52,7 @@ function Sidebar(){
     return (
         <div className="sidebar">
             <div className = "sidebar_header">
-                <Avatar src={user?.photoURL}    />
-                <div className = "header_options">
-                    <IconButton style = {{color: "#E1E6E2"}}>
-                        <DonutLargeIcon />
-                    </IconButton>
-                    <IconButton style = {{color: "#E1E6E2"}}>
-                        <ChatIcon />
-                    </IconButton>
-                    <IconButton style = {{color: "#E1E6E2"}}>
-                        <MoreVertIcon />
-                    </IconButton>
-                </div>  
+                <Avatar src={user?.photoURL}    />  
             </div>
             <div className = "sidebar_search">
                 <div className="search_container">

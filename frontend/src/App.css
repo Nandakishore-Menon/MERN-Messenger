@@ -2,13 +2,13 @@
   display: grid;
   place-items: center;
   height: 100vh;
-  background-color: #423c3e;
+  background-color: #ffffff;
 }
 
 .app_wrapper {
   display: flex;
-  background-color: #2e2a2b;
-  color: whitesmoke;
+  background-color: #f9f7f7;
+  color: black;
   height: 90vh;
   width: 90vw;
   margin: -50px;
@@ -21,12 +21,12 @@
 }
 
 ::-webkit-scrollbar-track {
-  background-color: #423c3e;
+  background-color: #f9f7f7;
   border-radius: 10px;
   margin: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #fbf1df;
+  background: #127ad5;
   border-radius: 10px;
 }
